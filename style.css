@@ -18,20 +18,25 @@ body{
     justify-content: space-between;
     background-color: black;
 }
-#container div{
+#bdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bdiv input{
+    width: 50%;
+}
+#grid div{
     display: flex;
     justify-content: space-between;
     background-color: blue;
     align-items: center;
-
-    
-
 }
-#container div div {
+#grid div div {
     flex: 1;
     display: flex;
 }
-#container div div div{
+#grid div div div{
     width: 0;
     flex: 1;
     display: flex;
@@ -40,4 +45,7 @@ body{
     background-color: crimson;
     padding-top: 100%;
     
+}
+#grid div div div:hover{
+    background-color: aqua;
 }
