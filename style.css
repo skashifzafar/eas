@@ -1,0 +1,43 @@
+
+body{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 97vw;
+    overflow: auto; 
+    display: flex;
+}
+#container{
+    height: 50%;
+    width: 50%;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+}
+#container div{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+
+    
+
+}
+#container div div {
+    flex: 1;
+    display: flex;
+}
+#container div div div{
+    width: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: crimson;
+    padding-top: 100%;
+    
+}
