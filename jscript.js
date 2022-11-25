@@ -11,8 +11,10 @@ function grid_input(){
             c.id=i+'-'+j
             c.style.border='solid'
             c.style.borderWidth='1px';
+            c.addEventListener('mouseover',function(){c.style.backgroundColor='blue'})
             b.appendChild(c)
             r.appendChild(b)
+           
         }
         grid.appendChild(r)
     }
