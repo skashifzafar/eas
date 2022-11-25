@@ -28,6 +28,6 @@ grid.id='grid'
 const bdiv=document.createElement('div')
 bdiv.id='bdiv'
 bdiv.appendChild(butt)
-document.addEventListener('click',function(){grid_input()})
+butt.addEventListener('click',function(){grid_input()})
 console.log(size)
 container.appendChild(bdiv)
