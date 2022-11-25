@@ -11,7 +11,7 @@ function grid_input(){
             c.id=i+'-'+j
             c.style.border='solid'
             c.style.borderWidth='1px';
-            c.addEventListener('mouseover',function(){c.style.backgroundColor='blue'})
+            c.addEventListener('mouseover',function(){c.style.backgroundColor='#'+(Math.random()*0xFFFFFF<<0).toString(16);})
             b.appendChild(c)
             r.appendChild(b)
            
